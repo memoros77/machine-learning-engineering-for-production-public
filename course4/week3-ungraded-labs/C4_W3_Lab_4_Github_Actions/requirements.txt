@@ -2,3 +2,5 @@ fastapi
 uvicorn
 scikit-learn
 pytest
+pylint
+black
