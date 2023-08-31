@@ -5,7 +5,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel, conlist
 
 
-#comment to run unit test first time
+#comment to run unit test first time second intend
 app = FastAPI(title="Predicting Wine Class with batching")
 
 # Open classifier in global scope
