@@ -14,7 +14,7 @@ jobs:
   # This workflow contains a single job called "test"
   test:
     # The type of runner that the job will run on
-    runs-on: ubuntu-20.04 
+    runs-on: ubuntu-latest
     defaults:
       run:
         # Use bash as the shell
@@ -31,7 +31,7 @@ jobs:
         name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.11.0'
+          python-version: '3.11'
       - 
         name: Install dependencies
         run: |
